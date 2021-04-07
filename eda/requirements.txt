@@ -1,0 +1,11 @@
+pandas
+numpy
+missingno
+matplotlib
+dateparser
+pandas_profiling
+fuzzywuzzy
+Levenshtein
+tldextract
+cleanco
+urllib
