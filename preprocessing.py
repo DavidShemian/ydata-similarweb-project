@@ -7,7 +7,6 @@ import unidecode
 import re
 import string
 
-
 class Preprocessing():
     def __init__(self, df):
         self.df_apps_match = df
