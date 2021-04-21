@@ -5,7 +5,6 @@ import Levenshtein as lev
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-
 class Tensor_similarity():
     def __init__(self, df_android, df_apple):
         self.google_play_df = df_android
