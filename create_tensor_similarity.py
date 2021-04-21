@@ -53,8 +53,6 @@ class Tensor_similarity():
             else:
                 return np.absolute(google_releasedate - apple_releasedate).astype(int)
 
-
-
         tow_apps_matching = []
         # insert title similarity:
         tow_apps_matching.append(get_string_differences(google_play_app['title'], app_store_app['title']))
